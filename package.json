@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "react-webpack-template",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -30,7 +30,6 @@
     "gh-pages": "^0.11.0",
     "image-webpack-loader": "^2.0.0",
     "node-sass": "^3.9.3",
-    "npm": "^3.10.8",
     "sass-lint": "^1.9.1",
     "sass-loader": "^4.0.0",
     "style-loader": "^0.13.1",
