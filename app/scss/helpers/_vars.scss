@@ -1,0 +1,46 @@
+$white: #F5F5F5;
+$black: #2F3138;
+$black__10: lighten($black, 5%);
+$black__20: lighten($black, 10%);
+$black__30: lighten($black, 15%);
+$black__40: lighten($black, 20%);
+
+$color__red: #EF476F;
+$color__yellow: #FFD166;
+$color__green: #06D6A0;
+$color__blue: #118AB2;
+$color__blue--20: #073B4C;
+
+$font__family--primary: 'proxima-nova', helvetica, arial, sans-serif;
+$font__family--secondary: 'fatfrank', helvetica, arial, sans-serif;
+
+$animation-time: 280ms;
+$animation-easing: cubic-bezier(.62, .01, .89, .76);
+
+$base-font-size: 1.125rem;
+$base-line-height: $base-font-size * 1.45;
+
+$spacing-xs: $base-line-height * .25;
+$spacing-sm: $base-line-height * .75;
+$spacing: $base-line-height;
+$spacing-md: $base-line-height * 1.5;
+$spacing-lg: $base-line-height * 2;
+
+$type-scale: (
+  - 1: .707rem,
+  0: 1.125rem,
+  1: 1.414rem,
+  2: 1.999rem,
+  3: 2.827rem,
+  4: 3.998rem
+);
+
+$line-height: (
+  - 1: $base-line-height,
+  0: $base-line-height,
+  1: $base-line-height * 2,
+  2: $base-line-height * 2,
+  3: $base-line-height * 2,
+  4: $base-line-height * 2
+)
+

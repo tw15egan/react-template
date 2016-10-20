@@ -1,0 +1,6 @@
+@import 'helpers/mixins';
+@import 'helpers/vars';
+
+p {
+  @include type-setting(0);
+}
