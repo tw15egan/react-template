@@ -2,7 +2,7 @@
   "name": "react-webpack-template",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "app/index.jsx",
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server",
@@ -20,27 +20,26 @@
     "babel-preset-react": "^6.11.1",
     "babel-preset-stage-0": "^6.16.0",
     "css-loader": "^0.23.1",
-    "eslint": "^3.7.0",
-    "eslint-config-airbnb": "^12.0.0",
-    "eslint-config-react": "^1.1.1",
-    "eslint-plugin-import": "^2.0.0",
-    "eslint-plugin-jsx-a11y": "^2.2.2",
-    "eslint-plugin-react": "^6.3.0",
+    "eslint": "^3.8.1",
+    "eslint-config-react": "^1.1.6",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1",
     "file-loader": "^0.9.0",
     "gh-pages": "^0.11.0",
+    "html-webpack-plugin": "^2.24.0",
     "image-webpack-loader": "^2.0.0",
     "node-sass": "^3.9.3",
     "sass-lint": "^1.9.1",
     "sass-loader": "^4.0.0",
     "style-loader": "^0.13.1",
-    "webpack-dev-server": "^1.14.1"
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-merge": "^0.14.0",
+    "webpack-validator": "^2.2.9"
   },
   "dependencies": {
-    "html-webpack-plugin": "^2.22.0",
     "react": "^15.2.1",
-    "react-dom": "^15.2.1",
-    "webpack": "^1.13.1",
-    "webpack-merge": "^0.14.0",
-    "webpack-validator": "^2.2.2"
+    "react-dom": "^15.2.1"
   }
 }

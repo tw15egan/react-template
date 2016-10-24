@@ -4,3 +4,14 @@
 p {
   @include type-setting(0);
 }
+
+.first-timer {
+  display: inline-block;
+  font-size: 3rem;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
