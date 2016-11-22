@@ -5,17 +5,13 @@ $black__20: lighten($black, 10%);
 $black__30: lighten($black, 15%);
 $black__40: lighten($black, 20%);
 
-$color__red: #EF476F;
-$color__yellow: #FFD166;
-$color__green: #06D6A0;
-$color__blue: #118AB2;
-$color__blue--20: #073B4C;
-
 $font__family--primary: 'proxima-nova', helvetica, arial, sans-serif;
 $font__family--secondary: 'fatfrank', helvetica, arial, sans-serif;
 
 $animation-time: 280ms;
 $animation-easing: cubic-bezier(.62, .01, .89, .76);
+
+
 
 $base-font-size: 1.125rem;
 $base-line-height: $base-font-size * 1.45;
